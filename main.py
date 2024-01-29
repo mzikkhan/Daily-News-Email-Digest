@@ -21,3 +21,10 @@ for article in content["articles"][:20]:
 
 body = body.encode("utf-8")
 send_email(mesg=body)
+
+### Downloading image from web
+
+# url = "www.wikipedia/cat.png"
+# response = requests.get(url)
+# with open("image.jpg", "wb") as file:
+#     file.write(response.content)
