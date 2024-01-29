@@ -12,7 +12,7 @@ def send_email(mesg):
     password = os.getenv("PASSWORD")
     username = "edrenaline0@gmail.com"
 
-    receiver = "mohammad.khan06@northsouth.edu"
+    receiver = "zaedkhan2019@gmail.com"
 
     context = ssl.create_default_context()
 
